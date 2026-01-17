@@ -1,88 +1,20 @@
 site_name: 'Open Sustainable Technology'
 site_url: 'https://opensustain.tech/'
 site_description: 'A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resources.'
+
 repo_name: 'protontypes/open-sustainable-technology'
 repo_url: 'https://github.com/protontypes/open-sustainable-technology'
-base_url: 'https://opensustain.tech/'
 edit_uri: ''
-nav:
-  - Projects: index.md
-  - Analytics: analytics.md
-  - Spreadsheet: spreadsheet.md
-  - Education: education.md
-  - Contribute: contributing.md
-  - Presentations: "presentations.md"
-  - Blog:
-      2025:
-        - "Scaling ClimateTriage Together" : blog/climatetriage-relaunch.md
-      2024:
-        - "Empowering Community-Driven Funding with OpenClimate.fund" : blog/openclimatefund.md
-        - "Closing the Gap: Accelerating environmental Open Source" : blog/closing-the-gap.md
-        - "Sustain Open Source, Sustain the Planet: A new conversation" : blog/sustain-open-source.md
-      2023: 
-        - "Connect Developers with Impactful Sustainability Projects" : blog/launch_climate_triage.md
-        - "The Open Source Sustainability Ecosystem"  : blog/the_open_source_sustainability_ecosystem.md
-      2022:
-        - "You can preserve the Earth's livability with open source" : blog/you_can_preserve_the_earth_s_livability_with_open_source.md  
-        - "Impact and potential of open source on climate technology": blog/impact_and_potential_of_open_source_on_climate_technology.md
-        - "Openness as a key indicator for sustainable investment": blog/openness_as_a_key_indicator_for_sustainable_investment.md
-      2021:
-        - "Open Principles for a Sustainable Technology Transition": blog/open_principles_for_a_sustainable_technology_transition.md
-      2020:
-        - "Gathering Open Sustainable Technology": blog/gathering_open_sustainable_technology.md
-  - Report: "https://report.opensustain.tech/"
-  - Podcast: "https://ossforclimate.sustainoss.org/"
-  - ClimateTriage: "https://climatetriage.com/"
-  - OpenClimate.fund: "https://openclimate.fund/"
 
-copyright:    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
-      Creative Commons Attribution 4.0 International License   </a>  -  <a href="https://opensustain.tech/privacy-policy/"> Read our Privacy Policy</a> 
+# base_url SATIRINI SİLDİK ✅
 
-theme:
-  name: 'material'
-  custom_dir: 'docs/overrides'
-  logo: 'logo.png'
-  favicon: 'favicon.png'
-  palette:
-        primary: 'teal'
-        accent: 'light'
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.expand
-    - navigation.indexes
-    - toc.integrate
-    - search.highlight
-    - search.suggest
-    - navigation.top
-    
-extra_css:
-    - css/extra.css
+copyright: >
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+  Creative Commons Attribution 4.0 International License
+  </a> –
+  <a href="https://opensustain.tech/privacy-policy/">Read our Privacy Policy</a>
 
 markdown_extensions:
-  - meta
-  - attr_list
-  - md_in_html
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - toc:
-      permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.snippets:
-      url_download: false
-      
-
-extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/mastodon
-      link: https://mastodon.social/@opensustaintech
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/company/protontypes
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/opensustaintech.bsky.social
-  analytics:
-    production_url: 'https://opensustain.tech'
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

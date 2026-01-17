@@ -1,0 +1,5 @@
+{
+  "installCommand": "pip install mkdocs-material mkdocs",
+  "buildCommand": "mkdocs build",
+  "outputDirectory": "site"
+}

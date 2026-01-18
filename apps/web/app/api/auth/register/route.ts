@@ -19,7 +19,8 @@ export async function POST(req: Request) {
       "SELECT 1 FROM users WHERE lower(email) = $1",
       [emailNorm]
     );
-    if (exists.rowCount > 0) {
+   if ((exists.rowCount ?? 0) > 0) {
+
       return NextResponse.json({ error: "Bu email zaten kayıtlı" }, { status: 409 });
     }
 
